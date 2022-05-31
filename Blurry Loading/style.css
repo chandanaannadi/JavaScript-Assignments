@@ -1,0 +1,33 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@100;400;700&family=Source+Sans+Pro:wght@600&display=swap');
+
+*{
+    box-sizing: border-box;
+}
+
+body{
+    font-family: 'Roboto', sans-serif;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    min-height: 100vh;
+    overflow: hidden;
+    margin: 0;
+}
+.bg{
+    background:url('https://media.istockphoto.com/photos/wind-farm-at-sunset-picture-id1301243910');
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    position: absolute;
+    top: -30px;
+    left: -30px;
+    height:calc(100vh + 60px);
+    width:calc(100vw + 60px);
+    z-index: -1;
+    filter: blur(0px);
+}
+.loading-text{
+    font-size: 50px;
+    color: rgb(22, 16, 16);
+}
